@@ -246,7 +246,7 @@ fieldset
   border: none;
 }
 
-input, textarea{
+input, textarea {
   min-height: 40px;
   background-color: black;
   border: none;
@@ -257,7 +257,7 @@ input, textarea{
   margin-bottom: 10px;
 }
 
-#button{
+#button {
   border: 1px solid var(--blue-color);
   background-color: transparent;
   color: var(--blue-color);
