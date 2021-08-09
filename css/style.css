@@ -227,7 +227,7 @@ A {
 
 
 }
-
+/* Formulario esta dentro de el grid de contacto y se le agrego un fieldset con flex para poder modificarlo */
 
 .grid-items-form {
   grid-column: 3 / 4;
@@ -237,15 +237,38 @@ A {
   text-align: center;
 }
 
-input,
-textarea,
-select {
+fieldset
+{
+  display: flex;
+  flex-direction: column;
   width: 450px;
-  height: 20px;
-  padding: 0px;
-  margin: 5px;
-
+  font-size: 20px;
+  border: none;
 }
+
+input, textarea{
+  min-height: 40px;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 200;
+  color:white;
+  margin-bottom: 10px;
+}
+
+#button{
+  border: 1px solid var(--blue-color);
+  background-color: transparent;
+  color: var(--blue-color);
+  width: 150px;
+  
+}
+
+
+
+/* Termina la parte del formulario*/
+
 
 .grid-items-instagram {
   grid-column: 1/3;
