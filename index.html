@@ -10,15 +10,17 @@
 </head>
 
 <body>
+
+    <div id="destacados"></div>
     <nav id="nav">
         <!-- Barra de navegacion lateral-->
         <div class="navigation">
             <ul>
-                <li class="neonTextBlue">contactame</li>
+                <li><a href="#contacto">contactame</a></li>
                 <li class="neonTextRose">.</li>
-                <li class="neonTextBlue">sobre mi</li>
+                <li><a href="#sobreMi">sobre mi</a></li>
                 <li class="neonTextRose">.</li>
-                <li class="neonTextBlue">destacados</li>
+                <li><a href="#destacados">destacados</a></li>
             </ul>
         </div>
     </nav>
@@ -26,7 +28,7 @@
 
     <div class="neonTextRose" id="header">Nicolas Moralez</div> <!-- Titulo principal-->
     <h1 class="neonTextRose" id="sub-header">PORTFOLIO</h1> <!-- Subtitulo -->
-    <div class="flex-container">
+    <div class="flex-container" >
         <!-- Div de la cartelera-->
         <div class="flex-items"><img src="images/RestauracionC.jpg" /></div>
         <div class="flex-items"><img src="images/flyerC.jpg" /> </div>
@@ -82,7 +84,7 @@
     </div>
 
     <!-- Empieza la parte de "sobre mi"-->
-    <div class="grid-container">
+    <div class="grid-container" id="sobreMi">
         <div class="grid-items-personal grid-items-rose ">
             Personal
         </div>
@@ -111,7 +113,7 @@
     <!-- Termina la parte de "sobre mi"-->
 
     <!-- Empieza la  seccion  "Contactame"-->
-    <div class="grid-container-contact">
+    <div class="grid-container-contact" id="contacto">
         <div class="grid-items-contact grid-items-rose">
             contactame
         </div>
@@ -122,23 +124,37 @@
             telefono: +54 11 55283091 <br>
             email: nicolasmoralez80@gmail.com
         </div>
-        <div class="grid-items-instagram"><img src="#"></div>
-        <div class="grid-items-github"><img src="#"></div>
-        <div class="grid-items-linkedin"><img src="#"></div>
-        <div class="grid-items-twitter"><img src="#"></div>
+
+        
+            <div class="grid-items-instagram"><img src="images/instagram.svg" alt="instagram.svg"></div>
+    
+             <div class="grid-items-github"><img src="images/github.svg" alt="github.svg"></div>
+            <div class="grid-items-linkedin"><img src="images/linkedin.svg" alt="
+                linkedin.svg"></div>
+            <div class="grid-items-twitter"><img src="images/twitter.svg" alt="twitter.svg"></div>
+           
+
         <div class="grid-items-form">
             <form>
-                <input type="text" placeholder="tú mensaje">
-                <input type="text" placeholder="tú email">
-                <input type="text" placeholder="tú mensaje">
+                <input type="text" placeholder="tú nombre"><br>
+                <input type="text" placeholder="tú email"><br>
+                <input type="text" placeholder="tú mensaje"><br>
                 <input type="submit">
             </form>
         </div>
 
+        
+        
+
     </div>
 
     <!-- Termina la seccion "Contactame"-->
-    
+    <footer>
+        <h1>hecho por Nicolás Moralez</h1>
+         <img src="images/telecomDigitalers.svg" alt="telecomDigitalers.svg">
+         
+    </footer>
+
 </body>
 
 
