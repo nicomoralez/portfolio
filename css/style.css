@@ -248,7 +248,7 @@ span {
   
 }
 #img-insta {
-  background-image: url("/images/instagram.svg");
+  background-image: url("images/instagram.svg");
 }
 
 #img-insta:hover{
@@ -256,7 +256,7 @@ filter:brightness(2);
 }
 
 #img-git {
-  background-image: url("/images/github.svg");
+  background-image: url("images/github.svg");
 }
 
 #img-git:hover{
@@ -264,7 +264,7 @@ filter:brightness(2);
 }
 
 #img-linkedin {
-  background-image: url("/images/linkedin.svg");
+  background-image: url("images/linkedin.svg");
 }
 
 #img-linkedin:hover{
@@ -272,7 +272,7 @@ filter:brightness(2);
 }
 
 #img-twitter {
-  background-image: url("/images/twitter.svg");
+  background-image: url("images/twitter.svg");
 }
 
 #img-twitter:hover{
@@ -331,39 +331,6 @@ input, textarea {
 
 
 
-/*
-.grid-items-instagram {
-  grid-column: 1/3;
-  grid-row: 4/5;
-  height: 50px;
-  width: 50px;
-
-}
-
-.grid-items-linkedin {
-  grid-column: 1/3;
-  grid-row: 4/5;
-  height: 50px;
-  width: 50px;
-  padding-left: 120px;
-}
-
-.grid-items-twitter {
-  grid-column: 1/3;
-  grid-row: 4/5;
-  height: 50px;
-  width: 50px;
-  padding-left: 180px;
-}
-
-.grid-items-github {
-  grid-column: 1/3;
-  grid-row: 4/5;
-  height: 50px;
-  width: 50px;
-  padding-left: 60px;
-}
-*/
 /* Termina la seccion de contactame*/
 
 
