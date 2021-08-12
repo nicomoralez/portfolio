@@ -248,7 +248,7 @@ span {
   
 }
 #img-insta {
-  background-image: url("https://github.com/nicomoralez/portfolio/blob/main/images/instagram-1.svg");
+  background-image: url("images/github-1.svg");
 }
 
 #img-insta:hover{
@@ -256,7 +256,7 @@ filter:brightness(2);
 }
 
 #img-git {
-  background-image: url("/images/github-1.svg");
+  background-image: url("images/instagram-1.svg");
 }
 
 #img-git:hover{
@@ -264,7 +264,7 @@ filter:brightness(2);
 }
 
 #img-linkedin {
-  background-image: url("/images/linkedin.svg");
+  background-image: url("images/linkedin-1.svg");
 }
 
 #img-linkedin:hover{
@@ -272,7 +272,7 @@ filter:brightness(2);
 }
 
 #img-twitter {
-  background-image: url("/images/twitter.svg");
+  background-image: url("images/twitter-1.svg");
 }
 
 #img-twitter:hover{
