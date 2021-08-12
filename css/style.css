@@ -248,7 +248,7 @@ span {
   
 }
 #img-insta {
-  background-image: url("images/instagram.svg");
+  background-image: url("portfolio/images/instagram.svg");
 }
 
 #img-insta:hover{
@@ -256,7 +256,7 @@ filter:brightness(2);
 }
 
 #img-git {
-  background-image: url("images/github.svg");
+  background-image: url("portfolio/images/github.svg");
 }
 
 #img-git:hover{
