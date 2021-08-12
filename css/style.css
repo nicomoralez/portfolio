@@ -248,7 +248,8 @@ span {
   
 }
 #img-insta {
-  background-image: url("images/instagram.svg");
+  background-color: none;
+  background-image: url("images/instagram-1.svg");
 }
 
 #img-insta:hover{
