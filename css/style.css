@@ -256,7 +256,7 @@ filter:brightness(2);
 }
 
 #img-git {
-  background-image: url("github.svg");
+  background-image: url("/images/github.svg");
 }
 
 #img-git:hover{
@@ -264,7 +264,7 @@ filter:brightness(2);
 }
 
 #img-linkedin {
-  background-image: url("linkedin.svg");
+  background-image: url("/images/linkedin.svg");
 }
 
 #img-linkedin:hover{
@@ -272,7 +272,7 @@ filter:brightness(2);
 }
 
 #img-twitter {
-  background-image: url("twitter.svg");
+  background-image: url("/images/twitter.svg");
 }
 
 #img-twitter:hover{
