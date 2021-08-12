@@ -248,8 +248,7 @@ span {
   
 }
 #img-insta {
-  background-color: none;
-  background-image: url("images/instagram-1.svg");
+  background-image: url("https://github.com/nicomoralez/portfolio/blob/main/images/instagram-1.svg");
 }
 
 #img-insta:hover{
@@ -257,7 +256,7 @@ filter:brightness(2);
 }
 
 #img-git {
-  background-image: url("images/github.svg");
+  background-image: url("/images/github-1.svg");
 }
 
 #img-git:hover{
