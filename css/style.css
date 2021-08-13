@@ -20,7 +20,7 @@ body {
   background-color: var(--bg-color);
 }
 
-A {
+#nav A {
   text-decoration: none;
   color: var(--blue-color) !important;
   text-shadow: 0 0 10px var(--blue-color), 0 0 30px var(--blue-color) !important;
@@ -248,7 +248,7 @@ span {
   
 }
 #img-insta {
-  background-image: url("images/github-1.svg");
+  background-image: url("images/instagram-1.svg");
 }
 
 #img-insta:hover{
@@ -256,7 +256,7 @@ filter:brightness(2);
 }
 
 #img-git {
-  background-image: url("images/instagram-1.svg");
+  background-image: url("images/github-1.svg");
 }
 
 #img-git:hover{
