@@ -26,6 +26,7 @@ body {
   text-shadow: 0 0 10px var(--blue-color), 0 0 30px var(--blue-color) !important;
   font-size: 20px;
 }
+
 .neonTextRose {
   color: var(--rose-color);
   text-shadow: 0 0 30px var(--rose-color);
@@ -90,7 +91,8 @@ body {
   margin-top: 40px
 }
 
-.flex-items , .flex-items img{
+.flex-items,
+.flex-items img {
 
   height: 500px;
   width: 280px;
@@ -131,7 +133,8 @@ body {
   width: 330px;
 }
 
-#item-portada img, #mockup img {
+#item-portada img,
+#mockup img {
   width: 680px;
   height: 480px;
 }
@@ -229,14 +232,15 @@ body {
 
 }
 
-.grid-items-redes{
+.grid-items-redes {
   grid-column: 1 / 3;
   grid-row: 4 / 5;
   width: 250px;
   height: 50px;
-  
-  
+
+
 }
+
 span {
   display: inline-block;
   height: 30px;
@@ -245,38 +249,39 @@ span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
 }
+
 #img-insta {
-  background-image: url("images/instagram-1.svg");
-}
-
-#img-insta:hover{
-filter:brightness(2);
-}
-
-#img-git {
-  background-image: url("images/github-1.svg");
-}
-
-#img-git:hover{
-filter:brightness(2);
-}
-
-#img-linkedin {
-  background-image: url("images/linkedin-1.svg");
-}
-
-#img-linkedin:hover{
-filter:brightness(2);
-}
-
-#img-twitter {
   background-image: url("images/twitter-1.svg");
 }
 
-#img-twitter:hover{
-filter:brightness(2);
+#img-insta:hover {
+  filter: brightness(2);
+}
+
+#img-git {
+  background-image: url("/images/github-1.svg");
+}
+
+#img-git:hover {
+  filter: brightness(2);
+}
+
+#img-linkedin {
+  background-image: url("/images/linkedin-1.svg");
+}
+
+#img-linkedin:hover {
+  filter: brightness(2);
+}
+
+#img-twitter {
+  background-image: url("/images/twitter-1.svg");
+}
+
+#img-twitter:hover {
+  filter: brightness(2);
 }
 
 
@@ -290,8 +295,7 @@ filter:brightness(2);
   text-align: center;
 }
 
-fieldset
-{
+fieldset {
   display: flex;
   flex-direction: column;
   width: 450px;
@@ -299,14 +303,15 @@ fieldset
   border: none;
 }
 
-input, textarea {
+input,
+textarea {
   min-height: 40px;
   background-color: black;
   border: none;
   font-size: 20px;
   padding-left: 10px;
   font-weight: 200;
-  color:white;
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -315,10 +320,10 @@ input, textarea {
   background-color: transparent;
   color: var(--blue-color);
   width: 150px;
-  
+
 }
 
-#button:hover{
+#button:hover {
   filter: brightness(0.85);
   background-color: var(--blue-color);
   color: white;
