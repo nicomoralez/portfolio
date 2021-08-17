@@ -277,7 +277,8 @@ span {
 }
 
 #img-twitter {
-  background-image: url("images/twitter-1.svg");
+  height: 24px;
+  width: 24px;
 }
 
 #img-twitter:hover {
