@@ -241,7 +241,7 @@ body {
 
 }
 
-span {
+.grid-items-redes img {
   display: inline-block;
   height: 30px;
   width: 30px;
@@ -252,34 +252,23 @@ span {
 
 }
 
-#img-insta {
-  background-image: url("images/instagram-1.svg");
-}
 
 #img-insta:hover {
   filter: brightness(2);
 }
 
-#img-git {
-  background-image: url("images/github-1.svg");
-}
+
 
 #img-git:hover {
   filter: brightness(2);
 }
 
-#img-linkedin {
-  background-image: url("images/linkedin-1.svg");
-}
 
 #img-linkedin:hover {
   filter: brightness(2);
 }
 
-#img-twitter {
-  height: 24px;
-  width: 24px;
-}
+
 
 #img-twitter:hover {
   filter: brightness(2);
