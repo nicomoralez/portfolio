@@ -253,7 +253,7 @@ span {
 }
 
 #img-insta {
-  background-image: url("/images/instagram-1.svg");
+  background-image: url("images/instagram-1.svg");
 }
 
 #img-insta:hover {
@@ -261,7 +261,7 @@ span {
 }
 
 #img-git {
-  background-image: url("/images/github-1.svg");
+  background-image: url("images/github-1.svg");
 }
 
 #img-git:hover {
@@ -269,7 +269,7 @@ span {
 }
 
 #img-linkedin {
-  background-image: url("/images/linkedin-1.svg");
+  background-image: url("images/linkedin-1.svg");
 }
 
 #img-linkedin:hover {
@@ -277,7 +277,7 @@ span {
 }
 
 #img-twitter {
-  background-image: url("/images/twitter-1.svg");
+  background-image: url("images/twitter-1.svg");
 }
 
 #img-twitter:hover {
