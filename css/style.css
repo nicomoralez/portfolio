@@ -6,7 +6,9 @@
   --bg-color: #091619;
   --nav-line-color: #808080;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
