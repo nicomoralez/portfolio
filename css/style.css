@@ -95,7 +95,7 @@ body {
 
 .flex-items,
 .flex-items img {
-
+  border-radius: 10px;
   height: 500px;
   width: 280px;
   filter: drop-shadow(0px 0px 2px var(--blue-color))
@@ -110,7 +110,7 @@ body {
   flex-direction: row;
   align-items: center;
   border: solid 2px var(--blue-color);
-  border-radius: 4px;
+  border-radius: 10px;
   width: 1110px;
   height: 524px;
   margin-left: auto;
@@ -128,8 +128,22 @@ body {
 
 .flex-items-articles h1 {
   text-align: start;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--blue-color);
+}
+
+.flex-items-articles h2 {
+  text-align: start;
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+.flex-items-articles h2 a {
+  text-align: start;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--blue-color)
 }
 
 .flex-container-articles img {
